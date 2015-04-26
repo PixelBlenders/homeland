@@ -1,0 +1,18 @@
+body {
+    overflow-x: hidden;
+}
+.navbar {
+    background: rgba(0,0,0,0.5);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.container {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.navbar-lower {
+    height: 70px;
+}
