@@ -104,9 +104,9 @@ section {
     padding: 20px;
     padding-left: 40px;
     font-weight: 100;
-    font-size: 40px;
+    font-size: 30px;
     position: relative;
-    top: -80px;
+    top: -70px;
     left: 50%;
     width: 100%;
     transition: all 0.8s ease;
@@ -149,4 +149,40 @@ section {
     position: relative;
     top: -10px;
     margin-left: 30px;
+}
+
+#links {
+    width: 100%;
+    background: #eee;
+}
+
+.card-1 {
+    width: 30%;
+    background: #fff;
+    margin-top: 40px;
+    display: inline-block;
+    margin-left: 3%;
+}
+
+.card-img {
+    background: #dd5643;
+    margin: 0;
+    height: 200px;
+    width: 100%;
+}
+
+.card-text {
+    line-height: 1.4em;
+    font-size: 18px;
+    padding: 20px;
+    color: #555;
+    text-align: justify;
+}
+
+.card-text h1 {
+    font-size: 28px;
+}
+
+.card-text .btn {
+    margin-left: 0px;
 }
