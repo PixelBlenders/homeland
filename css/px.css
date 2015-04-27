@@ -186,3 +186,21 @@ section {
 .card-text .btn {
     margin-left: 0px;
 }
+
+#footer {
+    background: #eee;
+}
+
+.grid3 {
+    width: 40%;
+    display: inline-block;
+}
+
+#copyright {
+    padding: 20px;
+}
+
+.px {
+    margin: auto;
+    color: #777;
+}
