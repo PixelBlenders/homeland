@@ -55,8 +55,7 @@ body {
     width: 100%;
     background-image: url('../img/mast.jpg');
     background-position: center;
-    /*    background-attachment: fixed;*/
-
+    background-attachment: fixed;
     background-size: cover;
     overflow: hidden;
 }
