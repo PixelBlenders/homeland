@@ -95,7 +95,7 @@ body {
 }
 
 .mast {
-    height: 550px;
+    height: 750px;
     width: 100%;
     /*    background-image: url('../img/mast.jpg');*/
 
@@ -608,7 +608,7 @@ input[type=text]::-ms-clear {
 
 .mast-card {
     position: relative;
-    bottom: -350px;
+    bottom: -550px;
     z-index: 999;
     box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.2);
     -webkit-transition: all 0.4s ease;
@@ -669,4 +669,38 @@ input[type=text]::-ms-clear {
     opacity: 0;
     -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
+}
+
+.mid-card {
+    position: relative;
+    bottom: -500px;
+}
+
+.search {
+    width: 70%;
+    height: 70px;
+    background: #fff;
+    box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.2);
+    position: relative;
+    top: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+.search-text {
+    height: 100%;
+    width: 20%;
+    margin-left: auto;
+    background: #54b4b0;
+    color: #fff;
+    padding: 20px;
+    font-size: 26px;
+    padding-left: 30px;
+    padding-right: 0px;
+    cursor: pointer;
+}
+
+#contact {
+    background: #fff;
 }
