@@ -78,8 +78,8 @@ body {
     padding-top: 40px;
     text-decoration: none;
     color: #000;
-    -webkit-transition: all 0.4s ease;
-    transition: all 0.4s ease;
+    -webkit-transition: background 0.2s ease;
+    transition: background 0.2s ease;
     margin: 0;
     padding-bottom: 40px;
 }
@@ -97,11 +97,12 @@ body {
 .mast {
     height: 550px;
     width: 100%;
-    background-image: url('../img/mast.jpg');
+    /*    background-image: url('../img/mast.jpg');*/
+
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
-    overflow: hidden;
+    background: #fff;
 }
 
 h1 {
@@ -219,7 +220,7 @@ section {
 }
 
 .card-img {
-    background: #dd5643;
+    background: #54b4b0;
     margin: 0;
     height: 200px;
     width: 100%;
@@ -603,4 +604,69 @@ input[type=text]::-ms-clear {
     .simform {
         font-size: 1.2em;
     }
+}
+
+.mast-card {
+    position: relative;
+    bottom: -350px;
+    z-index: 999;
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.2);
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.mast-card:hover {
+    -webkit-transform: translateY(-50px);
+    -ms-transform: translateY(-50px);
+    transform: translateY(-50px);
+}
+
+.property-card {
+    width: 24%;
+    height: 400px;
+    overflow: hidden;
+    margin-left: 0.49%;
+    margin-bottom: 0.49%;
+    display: inline-block;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    cursor: pointer;
+}
+
+.property-card .property-image {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background: #54b4b0;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.property-card .property-text {
+    margin: 0;
+    color: #666;
+    padding: 20px;
+    opacity: 0;
+    height: 100%;
+    position: relative;
+    top: -400px;
+    text-align: justify;
+    line-height: 1.4em;
+    font-size: 18px;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.property-card:hover .property-text {
+    opacity: 1;
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+}
+
+.property-card:hover .property-image {
+    opacity: 0;
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
 }
